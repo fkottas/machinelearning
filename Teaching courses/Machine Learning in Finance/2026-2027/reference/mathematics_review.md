@@ -26,7 +26,7 @@ First order the observations from smallest to largest.
 $$
 \tilde{x}=
 \begin{cases}
-x_{\left(\frac{n+1}{2}\right)}, & n\text{ odd},\\[6pt]
+x_{\left(\frac{n+1}{2}\right)}, & n\text{ odd},\\
 \frac{x_{\left(\frac{n}{2}\right)}+x_{\left(\frac{n}{2}+1\right)}}{2}, & n\text{ even}.
 \end{cases}
 $$
