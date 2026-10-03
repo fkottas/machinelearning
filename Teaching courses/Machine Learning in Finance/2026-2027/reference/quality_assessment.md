@@ -9,9 +9,9 @@
 |---|---|
 | Student-facing course path | One canonical course path under `Teaching courses/` |
 | 13-week navigation | Weeks 0–1 through 13 are represented in the course map and lecture index |
-| Relative Markdown links | 0 broken links across 75 course Markdown files |
-| Display-math delimiters | No remaining bracket-style display delimiters; course equations use GitHub-compatible display-math blocks |
-| Unsupported operator-name macros | 0 remaining occurrences; replaced with GitHub-safe roman notation |
+| Relative Markdown links | 0 broken links across 76 course Markdown files |
+| Display-math delimiters | No remaining bracket-style display delimiters; all display equations use GitHub-compatible `$ ... $` blocks |
+| Unsupported operator-name macros | 0 remaining occurrences; replaced with GitHub-safe roman notation |\n| Equation delimiter balance | 0 unmatched `\\left`/`\\right` pairs across display equations |
 | Assessment weights | 20% weekly work, 40% project, 40% final exam, plus up to 10% bonus |
 | Core learning scope | Supervised learning only in the 13-week route |
 | Lecture 0–1 datasets | Apple CSV and UCI credit-risk CSV/XLS are present with a data dictionary |
