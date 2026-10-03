@@ -59,13 +59,13 @@ The regular assessment totals 100%. The bonus can raise the maximum course total
 
 **Mathematics:**
 
-$
+$$
 p_i = P(Y_i=1\mid x_i)=\sigma(\eta_i)=\frac{1}{1+e^{-\eta_i}},\qquad \eta_i=\beta_0+x_i^\top\beta
-$
+$$
 
-$
+$$
 \ell(\beta)=\sum_{i=1}^{n}\left[y_i\log p_i+(1-y_i)\log(1-p_i)\right]
-$
+$$
 
 **Financial application:** Probability of Default modelling.
 
@@ -77,13 +77,13 @@ $
 
 **Mathematics:**
 
-$
+$$
 \mathrm{LogLoss}=-\frac{1}{n}\sum_{i=1}^{n}\left[y_i\log p_i+(1-y_i)\log(1-p_i)\right]
-$
+$$
 
-$
-\mathrm{Brier}=\frac{1}{n}\sum_{i=1}^{n}(p_i-y_i)^2,\qquad Gini=2\,AUC-1
-$
+$$
+\mathrm{Brier}=\frac{1}{n}\sum_{i=1}^{n}(p_i-y_i)^2,\qquad Gini=2\,\mathrm{AUC}-1
+$$
 
 **Financial application:** Compare models under different decision thresholds and assess whether predicted probabilities are usable.
 
@@ -95,9 +95,9 @@ $
 
 **Mathematics:**
 
-$
+$$
 G(t)=1-\sum_{k=1}^{K}p_{k\mid t}^{2},\qquad H(t)=-\sum_{k=1}^{K}p_{k\mid t}\log p_{k\mid t}
-$
+$$
 
 **Financial application:** Credit-risk prediction using nonlinear interactions.
 
@@ -119,9 +119,9 @@ $
 
 **Mathematics:**
 
-$
-F_m(x)=F_{m-1}(x)+\nu\,h_m(x),
-$
+$$
+F_m(x)=F_{m-1}(x)+\nu h_m(x),
+$$
 
 where the new learner \(h_m\) approximates the negative gradient of the loss with respect to the current model predictions.
 
@@ -135,10 +135,10 @@ where the new learner \(h_m\) approximates the negative gradient of the loss wit
 
 **Mathematics:**
 
-$
-\min_{w,b,\xi}\ \frac{1}{2}\lVert w\rVert^2+C\sum_{i=1}^{n}\xi_i
+$$
+\min_{\mathbf{w},b,\boldsymbol{\xi}}\frac{1}{2}\lVert\mathbf{w}\rVert_2^2+C\sum_{i=1}^{n}\xi_i
 \quad\text{subject to}\quad y_i(w^\top x_i+b)\ge 1-\xi_i,\ \xi_i\ge0
-$
+$$
 
 **Financial application:** Benchmark complementary classifiers and justify their suitability.
 
@@ -150,9 +150,9 @@ $
 
 **Mathematics:**
 
-$
+$$
 \mathrm{CalibrationError}=\sum_{b=1}^{B}\frac{|I_b|}{n}\left|\mathrm{acc}(I_b)-\mathrm{conf}(I_b)\right|
-$
+$$
 
 **Financial application:** Explain and calibrate a Probability of Default model.
 
@@ -164,9 +164,9 @@ $
 
 **Mathematics:**
 
-$
+$$
 h^{(1)}=\phi(W^{(1)}x+b^{(1)}),\qquad \hat{y}=\sigma(W^{(2)}h^{(1)}+b^{(2)})
-$
+$$
 
 **Financial application:** Credit-risk or fraud-risk prediction using an MLP, compared with the best traditional model.
 
