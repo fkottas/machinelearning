@@ -22,7 +22,10 @@ $$
 ## Elastic-Net regularisation
 
 $$
-\min_{\beta_0,\boldsymbol{\beta}}\{ -\ell(\beta_0,\boldsymbol{\beta})+\lambda[\alpha\lVert\boldsymbol{\beta}\rVert_1+(1-\alpha)\frac{1}{2}\lVert\boldsymbol{\beta}\rVert_2^2]\}.
+\min_{\beta_0,\boldsymbol{\beta}}
+\{ -\ell(\beta_0,\boldsymbol{\beta})
++\lambda[\alpha\lVert\boldsymbol{\beta}\rVert_1
++(1-\alpha)\frac{1}{2}\lVert\boldsymbol{\beta}\rVert_2^2]\}.
 $$
 
 ## Decision-tree impurity
