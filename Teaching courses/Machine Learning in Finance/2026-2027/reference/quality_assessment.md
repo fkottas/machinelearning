@@ -20,6 +20,6 @@
 
 ## Remaining content note
 
-The uploaded corrected student deck is now stored as a native PowerPoint package after removing five invalid `NULL` image relationships that caused the repair warning. The deck retains editable PowerPoint text and slide objects and was rendered successfully across all 107 slides. The instructor master remains separately under `lectures/lecture-00-01/source/` for future corrections. Equations should be checked visually in PowerPoint before each release, especially slides 73 and 74.
+The student-facing deck is now rebuilt from the original native-text PPTX rather than the flattened upload. It retains editable PowerPoint text, shapes, charts, and code windows. Slides 73 and 74 contain editable equation text boxes. Package integrity and layout checks pass for all 107 slides. The existing source deck contains three cached-reference charts without embedded workbooks, so those charts remain editable in PowerPoint but do not pass the portable workbook-lineage validator.
 
 This report records structural and notation checks. It does not replace the instructor's final content review of every explanatory sentence, code output, or dataset interpretation.
