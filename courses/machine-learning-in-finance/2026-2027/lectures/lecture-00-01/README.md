@@ -10,13 +10,15 @@ The official weighting is 20% weekly exercises, 40% capstone project, and 40% fi
 
 ## Files
 
-- `slides/Lecture_00_01_Course_Orientation_and_Python_Foundations_2026-2027_v9.pptx` — latest presentation.
+- `slides/Lecture_00_01_Course_Orientation_and_Python_Foundations_2026-2027.pptx` — latest presentation with additional worked cases.
 - `notebooks/lecture_00_01_colab.ipynb` — runnable Colab notebook.
 - The notebook is provided with executed text and plot outputs for study and verification.
 - `data/finance-charts-apple.csv` — the stock-market CSV used in the lecture examples.
 - `data/credit/default_of_credit_card_clients.csv` — the credit-risk CSV used for the credit-data example.
 - `data/data_dictionary.md` — complete variable definitions, target coding, units, provenance, citation, and licence information.
 - `exercises/weekly_assignment.md` — the weekly assignment brief.
+
+The Colab and presentation use parallel worked cases: a small portfolio calculation, Apple returns and grouped summaries, credit-risk class balance, borrower segments, and a transparent screening rule. The screening rule is illustrative and is not a validated credit policy.
 
 ## Open dataset
 
