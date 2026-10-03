@@ -16,7 +16,7 @@ $$
 $$
 
 $$
-\operatorname{LogLoss}=-\frac{1}{n}\sum_{i=1}^{n}\left[y_i\log(p_i)+(1-y_i)\log(1-p_i)\right].
+\mathrm{LogLoss}=-\frac{1}{n}\sum_{i=1}^{n}\left[y_i\log(p_i)+(1-y_i)\log(1-p_i)\right].
 $$
 
 ## Elastic-Net regularisation
@@ -58,7 +58,7 @@ $$
 ## Calibration
 
 $$
-\operatorname{ECE}=\sum_{m=1}^{M}\frac{|B_m|}{n}\left|\operatorname{acc}(B_m)-\operatorname{conf}(B_m)\right|.
+\mathrm{ECE}=\sum_{m=1}^{M}\frac{|B_m|}{n}\left|\operatorname{acc}(B_m)-\operatorname{conf}(B_m)\right|.
 $$
 
 ## Neural-network forward pass
@@ -72,7 +72,7 @@ $$
 
 $$
 W_T=W_0\prod_{t=1}^{T}(1+R_t),\qquad
-\operatorname{Sharpe}=\frac{\overline{R}-R_f}{s_R}\sqrt{m}.
+\mathrm{Sharpe}=\frac{\overline{R}-R_f}{s_R}\sqrt{m}.
 $$
 
 State the return frequency, annualisation factor `m`, and risk-free-rate assumption whenever the Sharpe ratio is used.
