@@ -10,7 +10,7 @@ Every dataset used in a lecture must be present in this repository or downloaded
 | `default_of_credit_card_clients.csv` | Introductory supervised credit-risk example | [UCI Machine Learning Repository, dataset 350](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) |
 | `default of credit card clients.xls` | Original UCI workbook supplied with the converted CSV | UCI dataset 350; see the data dictionary |
 
-The complete definitions, units, coding, target variable and licence/provenance notes are in the [Lecture 0–1 data dictionary](lectures/lecture-00-01/data/data_dictionary.md).
+The complete definitions, units, coding, target variable and licence/provenance notes are in the [Lecture 0–1 data dictionary](../lectures/lecture-00-01/data/data_dictionary.md).
 
 ## Student rule
 
