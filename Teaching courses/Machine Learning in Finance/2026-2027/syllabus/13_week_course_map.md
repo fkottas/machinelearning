@@ -60,11 +60,11 @@ The regular assessment totals 100%. The bonus can raise the maximum course total
 **Mathematics:**
 
 $$
-p_i = P(Y_i=1\mid x_i)=\sigma(\eta_i)=\frac{1}{1+e^{-\eta_i}},\qquad \eta_i=\beta_0+x_i^\top\beta
+p_i=P(Y_i=1\mid\mathbf{x}_i)=\sigma(\eta_i)=\frac{1}{1+e^{-\eta_i}},\qquad \eta_i=\beta_0+\mathbf{x}_i^{\top}\boldsymbol{\beta}.
 $$
 
 $$
-\ell(\beta)=\sum_{i=1}^{n}\left[y_i\log p_i+(1-y_i)\log(1-p_i)\right]
+\ell(\boldsymbol{\beta})=\sum_{i=1}^{n}\left[y_i\log(p_i)+(1-y_i)\log(1-p_i)\right].
 $$
 
 **Financial application:** Probability of Default modelling.
@@ -78,11 +78,11 @@ $$
 **Mathematics:**
 
 $$
-\mathrm{LogLoss}=-\frac{1}{n}\sum_{i=1}^{n}\left[y_i\log p_i+(1-y_i)\log(1-p_i)\right]
+\mathrm{LogLoss}=-\frac{1}{n}\sum_{i=1}^{n}\left[y_i\log(p_i)+(1-y_i)\log(1-p_i)\right].
 $$
 
 $$
-\mathrm{Brier}=\frac{1}{n}\sum_{i=1}^{n}(p_i-y_i)^2,\qquad Gini=2\,\mathrm{AUC}-1
+\mathrm{Brier}=\frac{1}{n}\sum_{i=1}^{n}(p_i-y_i)^2,\qquad \mathrm{Gini}=2\,\mathrm{AUC}-1.
 $$
 
 **Financial application:** Compare models under different decision thresholds and assess whether predicted probabilities are usable.
@@ -96,7 +96,7 @@ $$
 **Mathematics:**
 
 $$
-G(t)=1-\sum_{k=1}^{K}p_{k\mid t}^{2},\qquad H(t)=-\sum_{k=1}^{K}p_{k\mid t}\log p_{k\mid t}
+G(t)=1-\sum_{k=1}^{K}p_{k\mid t}^{2},\qquad H(t)=-\sum_{k=1}^{K}p_{k\mid t}\log(p_{k\mid t}).
 $$
 
 **Financial application:** Credit-risk prediction using nonlinear interactions.
@@ -120,7 +120,7 @@ $$
 **Mathematics:**
 
 $$
-F_m(x)=F_{m-1}(x)+\nu h_m(x),
+F_m(\mathbf{x})=F_{m-1}(\mathbf{x})+\nu h_m(\mathbf{x}),\qquad 0<\nu\le1.
 $$
 
 where the new learner \(h_m\) approximates the negative gradient of the loss with respect to the current model predictions.
@@ -136,8 +136,7 @@ where the new learner \(h_m\) approximates the negative gradient of the loss wit
 **Mathematics:**
 
 $$
-\min_{\mathbf{w},b,\boldsymbol{\xi}}\frac{1}{2}\lVert\mathbf{w}\rVert_2^2+C\sum_{i=1}^{n}\xi_i
-\quad\text{subject to}\quad y_i(w^\top x_i+b)\ge 1-\xi_i,\ \xi_i\ge0
+\min_{\mathbf{w},b,\boldsymbol{\xi}}\frac{1}{2}\lVert\mathbf{w}\rVert_2^2+C\sum_{i=1}^{n}\xi_i\quad\text{subject to}\quad y_i(\mathbf{w}^{\top}\mathbf{x}_i+b)\ge1-\xi_i,\quad \xi_i\ge0.
 $$
 
 **Financial application:** Benchmark complementary classifiers and justify their suitability.
@@ -151,7 +150,7 @@ $$
 **Mathematics:**
 
 $$
-\mathrm{CalibrationError}=\sum_{b=1}^{B}\frac{|I_b|}{n}\left|\mathrm{acc}(I_b)-\mathrm{conf}(I_b)\right|
+\mathrm{ECE}=\sum_{m=1}^{M}\frac{|B_m|}{n}\left|\mathrm{acc}(B_m)-\mathrm{conf}(B_m)\right|.
 $$
 
 **Financial application:** Explain and calibrate a Probability of Default model.
@@ -165,7 +164,7 @@ $$
 **Mathematics:**
 
 $$
-h^{(1)}=\phi(W^{(1)}x+b^{(1)}),\qquad \hat{y}=\sigma(W^{(2)}h^{(1)}+b^{(2)})
+\mathbf{h}^{(1)}=\phi\left(W^{(1)}\mathbf{x}+\mathbf{b}^{(1)}\right),\qquad \widehat{y}=\sigma\left(W^{(2)}\mathbf{h}^{(1)}+b^{(2)}\right).
 $$
 
 **Financial application:** Credit-risk or fraud-risk prediction using an MLP, compared with the best traditional model.
