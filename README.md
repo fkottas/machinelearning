@@ -2,20 +2,16 @@
 
 Professional teaching and research materials by **Dr. Ferdinantos Kottas**.
 
-## Courses
+## Teaching courses
 
-The student-facing course area is organised under one clear entry point:
+[Open the Teaching courses area](Teaching%20courses/README.md)
 
-[Open Courses](courses/README.md)
+The student-facing course material is kept separate from research projects, general teaching-code demonstrations, and the credit-risk book.
 
-## Repository areas
-
-| Area | Purpose |
+| Repository area | Purpose |
 |---|---|
-| [Courses](courses/README.md) | Student-facing course hubs and weekly teaching materials |
+| [Teaching courses](Teaching%20courses/README.md) | Student-facing course hubs, weekly presentations, Colab laboratories, datasets and assignments |
 | [Beginner ML algorithms](BEGGINER_ML_algo_usage_and_technics) | Earlier algorithm demonstrations |
 | [Class imbalance](classimbalance) | Imbalanced-learning examples |
 | [Cost-sensitive learning](cost_sensitive_learning) | Decision-cost and classification examples |
 | [Credit-risk project](credit_risk_project) | Earlier credit-risk project |
-
-The Machine Learning in Finance course is maintained as a separate course area. It is not mixed with the book repository or with general teaching-code folders.

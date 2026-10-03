@@ -2,7 +2,7 @@
 
 ## Course orientation and Python foundations
 
-The presentation introduces the 13-week course structure and then begins the official Week 1 material. The notebook uses both the public Apple price and volume dataset and a real credit-risk dataset from the UCI Machine Learning Repository.
+The presentation introduces the 13-week course structure and then begins the official Week 1 material. The notebook uses both the public Apple price and volume dataset and a real credit-risk dataset from the UCI Machine Learning Repository. It includes additional worked cases so the same Python pattern can be understood across portfolio, market-data and credit-risk questions.
 
 ## Assessment reminder
 
