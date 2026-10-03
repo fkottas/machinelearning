@@ -20,6 +20,6 @@
 
 ## Remaining content note
 
-The uploaded corrected student deck is now stored as the repaired PowerPoint package. The instructor master is kept separately under `lectures/lecture-00-01/source/` for future corrections. Equations should be checked visually in PowerPoint before each release, especially slides 73 and 74.
+The uploaded corrected student deck is now stored as a native PowerPoint package after removing five invalid `NULL` image relationships that caused the repair warning. The deck retains editable PowerPoint text and slide objects and was rendered successfully across all 107 slides. The instructor master remains separately under `lectures/lecture-00-01/source/` for future corrections. Equations should be checked visually in PowerPoint before each release, especially slides 73 and 74.
 
 This report records structural and notation checks. It does not replace the instructor's final content review of every explanatory sentence, code output, or dataset interpretation.
