@@ -27,7 +27,7 @@ $$
 \tilde{x}=
 \begin{cases}
 x_{\left(\frac{n+1}{2}\right)}, & n\text{ odd},\\[6pt]
-\dfrac{x_{\left(\frac{n}{2}\right)}+x_{\left(\frac{n}{2}+1\right)}}{2}, & n\text{ even}.
+\frac{x_{\left(\frac{n}{2}\right)}+x_{\left(\frac{n}{2}+1\right)}}{2}, & n\text{ even}.
 \end{cases}
 $$
 
@@ -64,7 +64,7 @@ $P_t$ is the price at time $t$. $R_t$ is the simple return, while $r_t$ is the c
 ## Slide 78 — Correlation
 
 $$
-\operatorname{Corr}(X,Y)=\frac{\operatorname{Cov}(X,Y)}{s_Xs_Y}
+\mathrm{Corr}(X,Y)=\frac{\mathrm{Cov}(X,Y)}{s_Xs_Y}
 $$
 
 Correlation is unit-free and measures linear co-movement. It lies between $-1$ and $1$ when both standard deviations are positive. A high correlation is descriptive and does not establish causality.
