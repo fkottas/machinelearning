@@ -10,7 +10,7 @@
 | Student-facing course path | One canonical course path under `Teaching courses/` |
 | 13-week navigation | Weeks 0–1 through 13 are represented in the course map and lecture index |
 | Relative Markdown links | 0 broken links across 75 course Markdown files |
-| Display-math delimiters | No remaining \\[ ... \\] blocks; course equations use GitHub-compatible `$$ ... $$` blocks |
+| Display-math delimiters | No remaining bracket-style display delimiters; course equations use GitHub-compatible `$ ... $` blocks |
 | Unsupported `operatorname` macros | 0 remaining occurrences; replaced with `\\mathrm{...}` notation |
 | Assessment weights | 20% weekly work, 40% project, 40% final exam, plus up to 10% bonus |
 | Core learning scope | Supervised learning only in the 13-week route |
