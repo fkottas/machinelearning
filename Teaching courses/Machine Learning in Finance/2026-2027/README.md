@@ -1,7 +1,8 @@
 # Machine Learning in Finance — 2026–2027 Course Hub
 
 **MPhil in Economics · National and Kapodistrian University of Athens**  
-**Language:** English · **Format:** weekly lecture + Colab laboratory + exercise
+**Language:** English · **Format:** weekly lecture + Colab laboratory + exercise  
+**First lecture:** 14 October 2026
 
 ## Student route
 
