@@ -2,7 +2,7 @@
 
 **MPhil in Economics · National and Kapodistrian University of Athens**  
 **Language:** English · **Format:** weekly lecture + Colab laboratory + exercise  
-**First lecture:** 14 October 2026
+**First lecture:** 14 October 2026, 15:00–18:00 Greece time (Europe/Athens)
 
 ## Student route
 
