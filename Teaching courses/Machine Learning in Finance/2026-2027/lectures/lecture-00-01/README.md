@@ -3,6 +3,7 @@
 ## Course orientation and Python foundations
 
 **Lecture date:** 14 October 2026  
+**Time:** 15:00–18:00 Greece time (Europe/Athens)  
 **Course:** Machine Learning in Finance · MPhil in Economics · NKUA  
 **Language:** English
 
