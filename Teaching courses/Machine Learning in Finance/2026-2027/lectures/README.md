@@ -1,6 +1,6 @@
 # Lecture index — Machine Learning in Finance (2026–2027)
 
-Use this page as the weekly release board. Every week has a stable page; planned pages will be replaced by the released PPTX, executed Colab, data, and assignment without changing the navigation links.
+Use this page as the weekly release board. Every week has a stable page; planned pages will be replaced by the released PPTX, Colab, data, and assignment without changing the navigation links.
 
 | Lecture | Topic | Release date | Status | Student page |
 |---:|---|---|---|---|
@@ -18,4 +18,4 @@ Use this page as the weekly release board. Every week has a stable page; planned
 | 12 | Introduction to neural networks | — | Planned | [Open Week 12](week-12/README.md) |
 | 13 | Completion and capstone presentations | — | Planned | [Open Week 13](week-13/README.md) |
 
-**Release rule:** a week becomes Published only after its PPTX, browser-readable PDF, executed Colab, supporting data, data dictionary, and assignment have passed the course quality check.
+**Release rule:** a week becomes Published only after its PPTX, executed Colab, supporting data, data dictionary, and assignment have passed the course quality check.
