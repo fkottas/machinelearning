@@ -12,14 +12,13 @@ This presentation introduces the 13-week course structure and begins the officia
 
 | Resource | Link |
 |---|---|
-| Editable PowerPoint | [Download the PPTX](slides/Lecture_00_01_Course_Orientation_and_Python_Foundations_2026-2027_EDITABLE_SAVE_SAFE_FINAL.pptx) |
-| Browser-readable presentation | [View the PDF](slides/Lecture_00_01_Course_Orientation_and_Python_Foundations_2026-2027_EDITABLE_SAVE_SAFE_FINAL.pdf) |
+| Latest editable PowerPoint | [Download the PPTX](slides/Lecture_00_01_Course_Orientation_and_Python_Foundations_2026-2027_EDITABLE_SAVE_SAFE_FINAL.pptx) |
 | Google Colab notebook | [Open the Colab notebook](notebooks/lecture_00_01_colab.ipynb) |
 | Weekly assignment | [Read the assignment](assignment/README.md) |
 | Apple financial data | [Open the CSV](data/finance-charts-apple.csv) |
 | Credit-risk data dictionary | [Read the data dictionary](data/data_dictionary.md) |
 
-GitHub cannot display PowerPoint slides directly in the browser. The PDF link is provided for immediate student viewing. Download the PPTX when you need to edit or present it.
+GitHub does not preview PowerPoint slides directly in the browser. Download the PPTX to open, edit, or present it.
 
 ## Assessment reminder
 
